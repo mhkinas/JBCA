@@ -1,0 +1,11 @@
+- Parameter classes are the first place to check when an error occurs.
+
+- Errors can be checked from the browser developer tools section, tomcat logs (console output) and application interface. Also database logs can be checked.
+
+- The isDebug variable must be set to true in the relevant parameter class to open the debug features on the codes.
+
+- If there are alternative connectors in classes using BaseParameters, it should be checked in case of error.
+
+- Try catch blogs should be used to find errors originating from Java codes. These error catch outputs can be monitored from the tomcat logs (console output).
+
+- Console.log(logStr, logJD, logFD) methods should be used to find errors originating from Javascript codes. These error catch outputs can be viewed in the browser developer tools section.

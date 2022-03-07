@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JBCA Web Development</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<br><br><br><br><br>
+	<div class="container-fluid" style="margin-top:30px; margin-left:100px;">
+	  <div class="row">
+		<div class="col-9">
+			<h2>Web Site Development with JBCA</h2><br><br>
+			<p class="lead text-justify">
+			Different development tools and methods can be used to develop a website. The pages created using HTML, css and javascript are usually sent to the user by the server using one of the languages PHP, C# (ASP, .NET), Java (JSP / Servlet, JSF).
+			<br><br>
+			Today, there are various infrastructures to publish prepared web pages. The majority of these are prepared using PHP. So if you don't know PHP or you want to use a very strong language like Java, then your options will be reduced. There's something I can say to comfort you here. Java Basic Content Adviser <a href="jbca-template.html" >( JBCA )</a> infrastructure is a ready-made infrastructure that uses Java, HTML5, javascript, bootstrap, etc. technology.
+			<br><br>
+			In the remainder of this article, you will learn how to manage a website page by using the JBCA <a href="jbca-template.html" >( Java Basic Content Adviser )</a> infrastructure and sending pages to a guest by using the jsp/servlet.
+			<br><br>
+			To improve the web page, bootstrap will be a good option. If it is about page design, you can also get professional support from a graphic designer as you can do yourself. The generated html pages, javascript codes, styles and visual elements should be in the file. 
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_01.jpg" class="img-thumbnail" alt="Code" width="850" height="125">
+			<br><br>
+			We save pages to the database with JBCA page management as an HTML file.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_02.jpg" class="img-thumbnail" alt="Code" width="1000" height="790">
+			<br><br>
+			The themes help us determine the top, bottom menu and side sections of the page along with the main (center) section of the page. In this way, instead of making corrections on all pages, we make corrections on theme pieces.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_03.jpg" class="img-thumbnail" alt="Code" width="1000" height="490">
+			<br><br>
+			By creating the link record of the page, we can send the main part of the page together with the side sections via JSP.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_04.jpg" class="img-thumbnail" alt="Code" width="1000" height="320">
+			<br><br>
+			Pages associated with themes are determined by map.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_05.jpg" class="img-thumbnail" alt="Code" width="1000" height="680">
+			<br><br>
+			We also have separate pages for menus. The menu update can be done as html text. The menus can also be entered by page file entry. The menus depend on the main part with the theme.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_06.jpg" class="img-thumbnail" alt="Code" width="1000" height="400">
+			<br><br>
+			We have code screens where we can save browser side scripts such as CSS, Javascript etc.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_07.jpg" class="img-thumbnail" alt="Code" width="1000" height="500">
+			<br><br>
+			Binary files saved in the database can be re-recorded, downloaded and deleted.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_08.jpg" class="img-thumbnail" alt="Code" width="1000" height="700">
+			<br><br>
+			With the contact screen, we can list and display the contact messages sent from the website.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_09.jpg" class="img-thumbnail" alt="Code" width="1000" height="500">
+			<br><br>
+			An overview of the project on Eclipse.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_10.jpg" class="img-thumbnail" alt="Code" width="250" height="550">
+			<br><br>
+			A section of JSP's in the WebContent folder.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_11.jpg" class="img-thumbnail" alt="Code" width="250" height="650">
+			<br><br>
+			As an example, services.jsp page to combine the html parts and offer to the customer.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_en_12.jpg" class="img-thumbnail" alt="Code" width="650" height="750">
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_13.jpg" class="img-thumbnail" alt="Code" width="580" height="450">
+			<br><br>
+			With LinPageBean we bring html and code fragments from the database for jsp page management.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_14.jpg" class="img-thumbnail" alt="Code" width="550" height="450">
+			<br><br>
+			Initial values ​​are determined, home page and theme information is obtained by getLinPage(String linkName) method.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_15.jpg" class="img-thumbnail" alt="Code" width="860" height="940">
+			<br><br>
+			The linked html page sections are retrieved from the database by the getThemePage(String position) method.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_16.jpg" class="img-thumbnail" alt="Code" width="750" height="550">
+			<br><br>
+			Taking the menu section is done by getMenuStr() method.
+			<br><br>
+			<img src="../images/jwsd-path/pict_jwsd_17.jpg" class="img-thumbnail" alt="Code" width="850" height="750">
+			<br><br>
+			With the use of JBCA (Java Basic Content Adviser), a simple code structure and saved HTML page sections in the database, we can achieve a fast and reliable content management infrastructure.
+
+			</p>
+		</div>
+	  </div>
+	</div>
+
+</body>
+</html>
